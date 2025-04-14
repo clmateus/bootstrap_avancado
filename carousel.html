@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-
+    <div class="carousel slide carousel-fade" id="carousel-exemplo" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img class="w-100 d-block" src="https://cdn.pixabay.com/photo/2023/09/13/15/41/mountain-8251186_960_720.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto 1</h2>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img class="w-100 d-block" src="https://cdn.pixabay.com/photo/2025/04/02/11/45/crocus-9508835_960_720.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto 1</h2>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img class="w-100 d-block" src="https://cdn.pixabay.com/photo/2025/01/22/15/57/landscape-9352440_960_720.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Foto 1</h2>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-exemplo" data-bs-slide-t="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-t="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-t="2"></button>
+            </div>
+        </div>
+    </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
