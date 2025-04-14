@@ -4,11 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap - Cards</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 <body>
+    <h1>Bootstrap - Cards</h1>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="https://placehold.co/100x100" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis corrupti ex, molestiae tempora a iste maxime? Quibusdam, repudiandae earum! Rem architecto velit eveniet nesciunt, dolorem deserunt ab error praesentium totam.</p>
+                        <a href="#" class="btn btn-primary">Botão</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="https://placehold.co/100x100" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis corrupti ex, molestiae tempora a iste maxime? Quibusdam, repudiandae earum! Rem architecto velit eveniet nesciunt, dolorem deserunt ab error praesentium totam.</p>
+                        <a href="#" class="btn btn-primary">Botão</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <!-- <div class="card-header">
+                        Cabeçalho do card
+                    </div> -->
+                    <img src="https://placehold.co/100x100" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis corrupti ex, molestiae tempora a iste maxime? Quibusdam, repudiandae earum! Rem architecto velit eveniet nesciunt, dolorem deserunt ab error praesentium totam.</p>
+                        <a href="#" class="btn btn-primary">Botão</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Desenvolvimento Web
+                        </header>
+                        <img src="https://placehold.co/100x100" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Cards do Bootstrap</h4>
+                            <p class="card-text">Conheça os cards do bootstrap.</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            <time>14/04/2025</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
